@@ -1,0 +1,175 @@
+html{
+    font-family: "aktiv-grotesk",sans-serif;
+    background: #0828CC;
+    
+}
+
+header {
+z-index: 500;
+width: auto;
+   
+}
+body{
+   
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+
+}
+
+
+.headerFlex {
+  
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+.topBox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: "aktiv-grotesk",sans-serif
+}
+
+.designBetter{
+color: white;
+}
+
+.threeButtons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    width: 300px;
+    margin: 70px;
+    font-size: 11px;
+    color: white;
+}
+
+.subscribe{
+    background-color: transparent; 
+    color: white;
+    padding: 10px;
+    border-radius: 500px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.blueCenter{
+    margin-top: 300px;
+   
+    color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+   
+}
+.bluePTextLarge{
+    font-size: 60px;
+}
+.bluePTextSmall{
+    width: 600px;
+    text-align: center;
+    line-height: 2;
+}
+
+.startExpButton{
+    background-color: white; 
+    color: #0828CC;
+    padding: 20px;
+    border-radius: 500px;
+    border-color: white;
+    border-width: 1px;
+}
+.startExpButton:hover{
+    background-color: transparent;
+    color: white;
+}
+.scroller{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.restOfBody1{
+    padding-top: 150px;
+    background-color:white;
+    width: 98vw;
+    left: 1%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    font-family: "aktiv-grotesk",sans-serif;
+}
+.restOfBody2{
+    padding-top: 150px;
+    background-color:white;
+    width: 98vw;
+    left: 1%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+    font-family: "aktiv-grotesk",sans-serif;
+
+}
+.bottomButtons{
+    background-color: #0828CC; 
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 500px;
+    padding-left:40px;
+    padding-right:40px;
+    border-width: 1px;
+}
+.bookDesc{
+width: 400px;
+margin-top: 30px;
+text-align: left;
+line-height: 2;
+}
+.centerBookText{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+}
+.authorText{
+margin-top: 30px;
+}
+.restOfBody3{
+    
+    background-color:white;
+    width: 98vw;
+    left: 1%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-between;
+    font-family: "aktiv-grotesk",sans-serif;
+}
+.otherMarginLol{
+    margin-top: 180px;
+    margin-bottom: 300px;
+}
